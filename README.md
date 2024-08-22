@@ -1,8 +1,22 @@
-# React + Vite
+# WeMovies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvovido baseado em um proposta consedida pela WeFit
 
-Currently, two official plugins are available:
+### Informações
+Projeto baseado em React (Vite) com o uso de uma API externa de filmes OMDb API (https://www.omdbapi.com/) 
+Projeto hospedado na Vercel (https://wemovies-sand.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Passo a passo:
+
+- Baixe ou clone o repositório.
+- Rode o comando `npm install` para instalar as dependencias
+- Acesse o site da API de filmes e solicite uma APIKEY (https://www.omdbapi.com/apikey.aspx)
+- Crie um arquivo `.env` e adicione a seguinte linha `VITE_OMDB_API_KEY=suachave` para que a APi faça a requisição corretamente.
+
+### Próximos passos:
+
+- Adicionar suspense e lazy loading para o carregamento dos filmes com o indicador.
+- Adicionar mensagens para o usuário
+- Adicionar novas rotas com mais funcionalidades, como autenticação e cadastro
+
+
