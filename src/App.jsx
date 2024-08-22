@@ -10,7 +10,7 @@ import OrderCompleted from './pages/OrderCompleted'
 const key = import.meta.env.VITE_OMDB_API_KEY
 
 export const loader = async () => {
-  return fetch(`http://www.omdbapi.com/?apikey=${key}&s='movies&page=1'`)
+  return fetch(`https://www.omdbapi.com/?apikey=${key}&s='movies&page=1'`)
 }  
 
 function App() {
